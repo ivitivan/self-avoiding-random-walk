@@ -1,0 +1,63 @@
+@supports(stroke-dasharray: 2300) {
+  .walk {
+    stroke-dasharray: 2300;
+    stroke-dashoffset: 2300;
+    animation: dash 5s linear forwards;
+  }
+}
+@-moz-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (min-width: 1201px) {
+  .self-avoiding-walk {
+    width: calc((100% - 20px * 5) / 5);
+  }
+}
+
+@media (max-width: 1200px) {
+  .self-avoiding-walk {
+    width: calc((100% - 20px * 4) / 4);
+  }
+}
+
+@media (max-width: 1000px) {
+  .self-avoiding-walk {
+    width: calc((100% - 20px * 3) / 3);
+  }
+}
+
+@media (max-width: 800px) {
+  .self-avoiding-walk {
+    width: calc((100% - 20px * 3) / 3);
+  }
+}
+
+@media (max-width: 600px) {
+  .self-avoiding-walk {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media (max-width: 400px) {
+  .self-avoiding-walk {
+    width: 100%;
+  }
+}

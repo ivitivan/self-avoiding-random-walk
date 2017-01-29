@@ -1,0 +1,55 @@
+.experiment-result {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.experiment-result > * {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .experiment-result > * {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .experiment-result > * {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .experiment-result > * {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .experiment-result > * {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .experiment-result > *:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .experiment-result > * {
+    margin-right: 0;
+  }
+}

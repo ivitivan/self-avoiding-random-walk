@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+}
+
+.long {
+  width: 80%;
+}
+
+.short {
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .short {
+    width: 100%;
+  }
+
+  .long {
+    width: 100%;
+  }
+}
+

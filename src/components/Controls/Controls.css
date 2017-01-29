@@ -1,0 +1,33 @@
+.controls {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 20px;
+}
+
+.controls > * {
+  margin-bottom: 10px;
+}
+
+.controls > *:last-child {
+  margin-top: 20px;
+}
+
+.controls_run {
+  display: block;
+  width: 100%;
+  background-color: #f4735d;
+  border: 0;
+  outline: none;
+}
+
+.controls_run:active {
+  background-color: #ce6250;
+}
+
+@media (max-width: 600px) {
+  .controls_run {
+    height: 48px;
+  }
+}
